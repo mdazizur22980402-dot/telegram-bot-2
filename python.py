@@ -4,12 +4,12 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKe
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
 # ========== CONFIG ==========
-TOKEN = "YOUR_BOT_TOKEN"
-OWNER_ID = 123456789
-FORCE_CHANNEL = "@yourchannel"
+TOKEN = "8906593267:AAEGh9k0PooY5XEe-AIPL41hV1zZWb09Rhk"
+OWNER_ID = 7796267844
+FORCE_CHANNEL = "https://t.me/azizur_m"
 BKASH = "01XXXXXXXXX"
-NAGAD = "01XXXXXXXXX"
-AI_API_KEY = "YOUR_GROQ_API_KEY"
+NAGAD = "01722980402"
+AI_API_KEY = ""xai-W7N5M235HcGHA0uBcT1hWl5IpKSQjdGdQuaME4PKpKsR5mtOF9xPvh2KuYE8ukzeRZn16tGzsiYyAQar
 DB_FILE = "database.json"
 MIN_WITHDRAW = 50
 
@@ -23,9 +23,9 @@ def load_db():
             "prices": {"1day": 20, "7day": 100, "30day": 300},
             "withdrawals": [],
             "social_links": {
-                "facebook": "https://facebook.com/yourpage",
-                "youtube": "https://youtube.com/@yourchannel",
-                "telegram": "https://t.me/yourchannel",
+                "facebook": "https://www.facebook.com/azizur123?mibextid=ZbWKwL",
+                "youtube": "https://www.youtube.com/@AZIZU_3",
+                "telegram": "https://t.me/azizur_m",
                 "website": "https://yourwebsite.com"
             }
         }
